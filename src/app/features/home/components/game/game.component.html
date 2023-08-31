@@ -1,0 +1,9 @@
+<div>
+  <canvas (click)="eventCanvas($event)" #canvasElement></canvas>
+  <div *ngIf="status">
+    <h2>{{ status }}</h2>
+    <button (click)="changeStage()">PLAY AGAIN</button>
+  </div>
+  <button class="btn-rules" (click)="modalService.show()">RULES</button>
+</div>
+

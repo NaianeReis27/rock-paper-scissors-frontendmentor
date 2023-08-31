@@ -1,0 +1,65 @@
+:host {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+canvas {
+  margin: 0 auto;
+  position: absolute;
+  max-width: inherit;
+  width: 100%;
+  z-index: 2;
+}
+
+div {
+  
+  position: absolute;
+  width: 1366px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  h2 {
+    text-align: center;
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase;
+  }
+  div > button {
+    width: 224px;
+    background-color: white;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.16px;
+    cursor: pointer;
+    z-index: 11;
+  }
+}
+
+.btn-rules {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 130px;
+  border: 2px solid white;
+  background: none;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 2.16px;
+  color: white;
+  margin: 30px;
+  cursor: pointer;
+  z-index: 3;
+}
