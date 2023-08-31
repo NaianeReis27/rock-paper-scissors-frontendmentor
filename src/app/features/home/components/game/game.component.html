@@ -1,6 +1,6 @@
 <div>
   <canvas (click)="eventCanvas($event)" #canvasElement></canvas>
-  <div *ngIf="status">
+  <div class="container-btn" *ngIf="status">
     <h2>{{ status }}</h2>
     <button (click)="changeStage()">PLAY AGAIN</button>
   </div>
