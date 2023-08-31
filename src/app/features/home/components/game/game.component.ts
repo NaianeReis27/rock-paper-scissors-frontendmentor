@@ -24,7 +24,7 @@ export class GameComponent implements OnInit {
     this.canvas = this.canvasElement.nativeElement;
     this.context = this.canvas.getContext('2d')!;
     this.canvas.width = 1366;
-    this.canvas.height = 810;
+    this.canvas.height = 700;
 
     if (this.context) {
       this.game = new Game(this.canvas, this.context);
